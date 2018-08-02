@@ -25,7 +25,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
 
 <<<<<<< HEAD
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-  object[key] = value; // this is working by change to [].
+  object[key] = value; // this is working by change from dot notation to bracket notation.
 =======
 
 //destructive Update 
@@ -60,7 +60,7 @@ function deleteFromObjectByKey(object, key) {
 
 function destructivelyDeleteFromObjectByKey(object, key) {
 <<<<<<< HEAD
-  delete object[key];   //this worked by change from . notatiaon to []. 
+  delete object[key];   //this worked by changing from dot notatiaon to []. 
 =======
   Object.assign({}, {object, key});
 >>>>>>> 48d80b464df04ea8b5ab7627ed9232324ebb4ced
